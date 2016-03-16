@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS list, Table and From</title>
+    <link rel="stylesheet" type="text/css" href="csslistfrom.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>細田守</h1>
+    <p>富山県中新川郡上市町出身のアニメ監督、アニメーター。2005年からフリー。金沢美術工芸大学美術工芸学部美術科油絵専攻卒業。</p>
+    <p>日本アニメーター・演出協会 (JAniCA) 会員。</p>
+    <ul>
+      <li><a href="https://www.wikiwand.com/ja/%E7%B4%B0%E7%94%B0%E5%AE%88#/.E5.AD.A6.E7.94.9F.E6.99.82.E4.BB.A3" target="_blank">学生時代</a></li>
+      <li><a href="https://www.wikiwand.com/ja/%E7%B4%B0%E7%94%B0%E5%AE%88#/.E6.9D.B1.E6.98.A0.E6.96.B0.E4.BA.BA.E6.99.82.E4.BB.A3" target="_blank">東映新人時代</a></li>
+      <li><a href="https://www.wikiwand.com/ja/%E7%B4%B0%E7%94%B0%E5%AE%88#/.E6.BC.94.E5.87.BA.E5.AE.B6.E3.83.BB.E7.9B.A3.E7.9D.A3.E6.99.82.E4.BB.A3" target="_blank">演出家・監督時代</a></li>
+    </ul>
+    <table>
+      <tr class="head">
+      	<th colspan="2">短編アニメーション映画</th>
+      	<th colspan="2">長編アニメーション映画</th>
+      	<th colspan="2">TVCM</th>
+      </tr>
+      <tr>
+      	<td>1999年</td>
+      	<td>劇場版デジモンアドベンチャー</td>
+      	<td>2006年</td>
+      	<td>時をかける少女</td>
+      	<td>2003年</td>
+      	<td>六本木ヒルズ</td>
+      </tr>
+      <tr class="even">
+      	<td>1999年</td>
+      	<td>劇場版鬼太郎の幽霊電車3D</td>
+      	<td>2009年</td>
+      	<td>おおかみこどもの雨と雪</td>
+      	<td>2005年</td>
+      	<td>スクウェア・エニックス</td>
+      </tr>
+      <tr>
+      	<td>2012年</td>
+      	<td>劇場版ぼくらのウォーゲーム!</td>
+      	<td>2009年</td>
+      	<td>サマーウォーズ</td>
+      	<td>2012年</td>
+      	<td>ハウス食品</td>
+      </tr>
+      <tr class="even">
+      	<td>2000年</td>
+      	<td>劇場版3D デジモングランプリ!</td>
+      	<td>2015年</td>
+      	<td>バケモノの子</td>
+      	<td>2015年</td>
+      	<td>サントリー</td>
+      </tr>
+    </table>
+    <form action="http://wwww.example.com/form.php" method="get">
+      <fieldset>
+        <legend>Register your favor</legend>
+        <p>
+          <label class="title" for="name">Your name:</label>
+          <input type="text" name="name" id="name"><br />
+          <label class="title" for="email">Your email:</label>
+          <input type="text" name="email" id="email"><br />
+        </p>
+        <p>
+          <label class="title" for="location">Your closest type:</label>
+          <select name="locaton" id="location">
+            <option value="ova">短編映画</option>
+            <option value="movie">長編映画</option>
+            <option value="cm">TVCM</option>
+          </select>
+        </p>
+        <p>
+          <span class="title">Are you a member?</span>
+          <label><input type="radio" name="member" value="yes" />Yes</label>
+          <label><input type="radio" name="member" value="no" />No</label>
+        </p>
+        <p class="title">Your comments:</p>
+        <textarea name="comments" id="comments" cols="25" rows="4"></textarea>
+      </fieldset>
+      <div class="submit"><input type="submit" value="sent" /></div>
+    </form>
+  </body>
+</html>
