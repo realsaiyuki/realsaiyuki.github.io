@@ -1,0 +1,37 @@
+@import url("http://fonts.googleapis.com/earlyaccess/cwtexhei.css");
+@import url("960_12_col.css");
+@import url("reset.css");
+@import url("text.css");
+body {
+  font-family: 'cwTeXHei', Verdana, sans-serif;
+  font-weight: bold;
+  color: #665544;
+  background-color: #d4d0c6;
+  text-align: center;}
+.wrapper{
+  width: 960px;
+  margin: 10px auto;}
+.header {
+  margin: 30px 0px 20px 0px;}
+p {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #777777;
+  width: 450px;
+  margin: 0px auto;}
+.entry {
+  width: 300px;
+  margin: 10px;
+  height: 200px;
+  background-image: url("img/backgroung.jpg");
+  background-position: bottom;}
+figure {
+  width: 280px;
+  height: 180px;
+  background-color: #e7e3d8;
+  margin: 10px 10px;
+  text-align: center;}
+figure img {
+  width: 280px;
+  height: 160px;
+  border: 1px solid #d6d6d6d6;}
