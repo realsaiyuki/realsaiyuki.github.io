@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>aHaNa</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>Nomad Life</h2>
+        <h3>The most important little thing</h3>
+        <a class="btn btn-primary" href="#">See all</a>
+      </div>
+    </div>
+  </section>
+  <header class="container">
+    <div class="row">
+      <h1 class="col-sm-8">aHaNa</h1>
+      <nav class="col-sm-4">
+        <p>newest</p>
+        <p>catalogue</p>
+        <p>contact</p>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p>神奈川</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg">
+        <p class="intro">神奈川縣（日語：神奈川県／かながわけん）是日本的一級行政區之一，位於關東地方西南端，東京以南，西接山梨縣和靜岡縣、東濱東京灣、南濱相模灣。</p>
+        <p>境內擁有古都鎌倉、日本最大軍港橫須賀等著名都市。</p>
+      </div>
+      <div class="col-sm-6">
+        <p>東京</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg">
+        <p>東京都（日語：東京都／とうきょうと）是日本一個地方行政區，與道、府、縣同屬第一級行政區劃。轄區包含東京都區部、多摩地方、伊豆群島、小笠原群島等地區，同時也囊括了日本最南端（沖之鳥島）和最東端（南鳥島）等幾個地理極點。</p>
+        <p>由於東京都區部為日本的中央政府所在地，因而使東京都被廣泛認知為日本首都。</p>
+      </div>
+      <div class="col-sm-3">
+        <p>湘南</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg">
+      </div>
+      <div class="col-sm-3">
+        <p>鎌倉</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg">
+      </div>
+      <div class="col-sm-3">
+        <p>清澄白河</p>
+        <img src="">
+      </div>
+      <div class="col-sm-3">
+        <p>東京車站</p>
+        <img src="">
+      </div>
+    </div>
+    <div class="row text-center">
+      <a class="btn btn-secondary" href="#">View Complete Catalogue</a>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 KxFnomad</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
